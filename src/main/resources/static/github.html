@@ -5,6 +5,19 @@
     <title>GitHub</title>
 </head>
 <body>
-<H1>HEEEE</H1>
+<form id="create-repo" action="create-repo" method="post">
+<input type="text" name="reponame"/><br/>
+
+<input type="radio" name="status" value="private"/>Private<br/>
+<input type="radio" name="status" value="public"/>Public<br/>
+
+<textarea name="description"></textarea>
+
+    <button>Create Repo</button>
+
+</form>
+<!--<div class="sign_in">-->
+<!--    <a class="btn btn-success fa fa-google" href="/create-repo/reponame/status/description"> Create repository</a>-->
+<!--</div>-->
 </body>
 </html>
