@@ -3,12 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <title>SSD Authentication Application</title>
+
+    <meta name="viewport" http-equiv="Content-Type" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <!---------------- Importing custom CSS ---------------->
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+    <!---------------- Bootstrap 4 CSS and JS CDN links ---------------->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+
 </head>
-<body>
-<h1>Hi</h1>
-<div class="sign_in">
-    <a class="btn btn-success fa fa-google" href="/github-login"> Sign in with Facebook</a>
+<!--<body>-->
+<!--<h1>Hi</h1>-->
+<!--<div class="sign_in">-->
+<!--    <a class="btn btn-success fa fa-google" href="/github-login"> Sign in with Facebook</a>-->
+<!--</div>-->
+<!--<h1>Hi, this is google-auth branch</h1>-->
+<!--</body>-->
+<body class="main_container jumbotron text-center">
+<div class="header">
+    <div class="inner_header">
+        <img src="./images/logo.png">
+        <div class="logo_container">
+            <h1><span>File Uploader</span></h1>
+        </div>
+        <img src="./images/git_logo.png">
+        <div class="logo_container">
+            <h1><span>Repository Creator</span></h1>
+        </div>
+    </div>
+
 </div>
-<h1>Hi, this is google-auth branch</h1>
+<div class="big_container">
+    <div class="content_txt" style="background: snow;">
+        <h2>Welcome to Google File Uploader</h2>
+        <p>Please authorize your Google Drive by signing in with the button below.</p>
+        <div class="sign_in">
+            <a class="btn btn-success fa fa-google" href="/signingoogle"> Sign in with Google</a>
+        </div>
+        <hr/>
+        <h2>Welcome to Github Repository Creator</h2>
+        <p>Please authorize your Github by signing in with the button below.</p>
+        <div class="sign_in">
+                <a class="btn btn-success fa fa-github" href="/github-login"> Sign in with Github</a>
+            </div>
+    </div>
+</div>
 </body>
 </html>
